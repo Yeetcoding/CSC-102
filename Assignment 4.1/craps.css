@@ -1,0 +1,31 @@
+body{
+  background-color: rgb(120,120,255);
+  color: rgb(150,255,0)
+}
+
+header{
+  text-align: center;
+}
+
+main{
+  text-align: center;
+}
+
+footer{
+  text-align: left;
+  margin-top: 30px;
+}
+
+.tradePic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 180px;
+}
+
+.resultPic{
+  width: 200px;
+  height: 150px;
+}

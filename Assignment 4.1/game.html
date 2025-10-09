@@ -1,0 +1,51 @@
+<!-- Code written by Lincoln Willison-->
+<!-- Last updated 10/07/2025 -->
+
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Game</title>
+
+  <script src="craps.js"></script>
+  <script src="usefulFuncs.js"></script>
+
+  <link rel="stylesheet" href="craps.css">
+
+</head>
+<body>
+  <header>
+    <h1> Play... if you dare! </h1>  
+  </header>
+
+  <main>
+    <img src="trade.png" id="tradePic" class="tradePic">
+    <button onclick="basicCraps()">- Run Craps -</button>
+    <h3> Your Rolls: </h3> 
+    <h3 id="roll1">Roll 1</h3>
+    <h3 id="roll2">Roll 2</h3>
+    <h3>Sum =</h3>
+    <h3 id="sum"> Sum</h3>
+    <h3 id="gameResult">GameResult</h3>
+    <img id="winGif" style="display: none" src="celebration.gif" class="resultPic">
+    <img id="loseGif" style="display: none" src="dissap.gif" class="resultPic">
+    <img id="stagnPic" style="display: none" src="dogWait.jpg" class="resultPic">
+  </main>
+
+  <footer>
+  <h4 style="display: inline">Win Count:</h4>
+  <h4 id="winCount" style="display: inline"></h4>
+  <h4 style="display: inline"> | </h4>
+  <h4 style="display: inline">Lose Count:</h4>
+  <h4 id="loseCount" style="display: inline"></h4>
+  <h4 style="display: inline"> | </h4>
+  <h4 style="display: inline">Number of Times Rolled:</h4>
+  <h4 id="runCount" style="display: inline"></h4>
+  </footer>
+
+</body>
+</html>
+
+
+<!-- λ -->
