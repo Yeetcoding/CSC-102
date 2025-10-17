@@ -1,0 +1,50 @@
+<!-- Code written by Lincoln Willison-->
+<!-- Last updated 10/16/2025 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>inputExample</title>
+
+  <!-- Links all of the JavaScript and CSS pages that are used for this site -->
+  <link rel="stylesheet" href="inputExampleCSS.css">
+  <script src="inputExample.js"></script>
+  <script src="../usefulFuncs.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <h1>Input Example</h1>
+  </header>
+
+  <main>
+    <!-- Note: Action is the name of the page that the form will post to -->
+    <h3>Give me all of your personal information to see my secret message for you :)</h3>
+    <!-- Form section includes all input boxes that will be used to gather info from the user -->
+    <form method="post" action="#" name="formInput" id="'formInput" onsubmit="return false;">
+      <label for="firstName">Type in your first name:</label>
+      <input type="text" name="firstName" id="firstName" placeholder="ex: Jennifer">
+      <br><br>
+      <label for="lastName">Type in your last name:</label>
+      <input type="txt" name="lastName" id="lastName" placeholder="ex: Lawrence">
+      <br><br>
+      <label for="zipCode">Type in your Zip Code:</label>
+      <input type="txt" name="zipCode" id="zipCode" placeholder="ex: 00055">
+      <br><br>
+      <button onclick="saveForm();">Save Inputs</button>
+    </form>
+    <!-- After the information has been gathered, the decided Display Message will show-->
+    <br>
+    <div id="displayMessage"></div>
+    <br>
+    <h2 id="secretMessage" style="display: none"></h2>
+  </main>
+
+</body>
+</html>
+
+
+<!-- λ -->

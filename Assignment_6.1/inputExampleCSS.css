@@ -1,0 +1,13 @@
+/*  Code written by Lincoln Willison
+    Last updated 10/16/2025
+*/
+
+/* Makes the page black with green text*/
+body{
+  text-align: center;
+  background-color: rgb(0,0,0);
+  color: rgb(128, 240, 50)
+}
+
+
+/* λ  */
