@@ -1,0 +1,18 @@
+/*  Code written by Lincoln Willison
+    Last updated 10/22/2025
+*/
+
+body{ /* Makes everything center-aligned and in an inverse coloring*/
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+img{ /* makes the image start in the center-ish; gives it a border*/
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  border: 5px solid rgb(255,0,0);
+}
+
+/* λ */
