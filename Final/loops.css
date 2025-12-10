@@ -1,0 +1,9 @@
+body{
+  color: rgb(255,100,100);
+  background-color: rgb(50,50,50);
+  text-align: center;
+}
+
+h1{
+  position: absolute
+}
