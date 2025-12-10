@@ -1,0 +1,66 @@
+<!-- Code written by Lincoln Willison-->
+<!-- Last updated 12/02/2025 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+  <link rel="stylesheet" href="table.css">
+  <link rel="stylesheet" href="navAll.css">
+  <script src="table.js"></script>
+
+</head>
+<body>
+  <header>
+    <!-- main title -->
+    <h1>Cool Mars Rovers Made by NASA</h1>
+    
+    <nav>
+      <h2 class="padding">Different Assignment Pages</h2>
+      <a href="final.html">Home Page</a>
+      <a href="first.html">First</a>
+      <a href="boardsCopy.html">Boards</a>
+      <a href="../Craps/game.html">Craps</a>
+      <a href="inputExample.html">Input Example</a>
+      <a href="events.html">Events</a>
+      <a href="palindrome.html">Palindrome</a>
+      <a href="sound.html">Sound</a>
+      <a href="lists.html">Lists</a>
+      <a href="table.html">Tables</a>
+    </nav>
+    
+  </header>
+  <main>
+    <br><br>
+    <!-- sets up the table so that the js can fill it in -->
+    <table id="tblRovers">
+      <caption>NASA Mars Exploration Rovers</caption>
+      <!-- tr = table row, td = table data -->
+      <!-- sets up the column names-->
+      <tr>
+        <th>Rover Name</th>
+        <th>Launch Year</th>
+        <th>Misson End</th>
+        <th>Objective</th>
+      </tr>
+    </table>
+    <!-- line that loads the js to fill in the table -->
+    <script>loadTable()</script>
+    <br><br>
+  </main>
+  <footer>
+    <!-- list of sources derived from NASA webpages; used to find the info listed in the table above -->
+    <h3>Sources:</h3>
+    <a href="https://science.nasa.gov/mission/mars-pathfinder/">Sojourner/Pathfinder</a>
+    <a href="https://science.nasa.gov/mission/mer-spirit/">Spirit Rover</a>
+    <a href="https://science.nasa.gov/mission/mer-opportunity/">Opportunity Rover</a>
+    <a href="https://science.nasa.gov/mission/msl-curiosity/">Curiosity Rover</a>
+    <a href="https://science.nasa.gov/mission/mars-2020-perseverance/">Perserverance</a>
+  </footer>
+</body>
+</html>
+
+
+<!-- λ -->

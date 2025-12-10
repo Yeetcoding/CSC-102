@@ -1,0 +1,20 @@
+/*  Code written by Lincoln Willison
+    Last updated 12/02/2025
+*/
+
+body{
+  background-color: rgb(100,100,100);
+  color: rgb(230,100,0);
+}
+
+table{
+  border-style: solid;
+}
+
+footer{
+  border-top-style: solid;
+  word-spacing: 10px;
+}
+
+
+/* λ */
